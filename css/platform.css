@@ -1,0 +1,150 @@
+html 
+{
+    font-family: 'Noto-Sans', sans-serif;
+}
+
+body {
+    font-weight: 8pt;
+    font-family: 'Noto-Sans', sans-serif;
+}
+
+
+h1
+{
+    font-size: 2.5em;
+}
+
+h2
+{
+    font-size: 2em;
+}
+
+h3
+{
+    font-size: 1.5em;
+}
+
+a 
+{
+    display: inline-block;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.nav-container
+{
+    display: flex;
+    align-items: flex-start;
+    align-content: space-between;
+    max-height: 50px;
+}
+
+.logo {
+    margin-top: -15px;
+}
+
+ul.nav-links {
+    list-style-type: none;
+    padding-top: 10px;
+    margin: 0;
+    overflow: hidden;
+}
+
+ul.nav-links > li {
+    float: left;
+    padding: 5px;
+}
+
+a.nav-link, a.nav-link:visited {
+    color: #1f1f24;
+    text-decoration: none;
+}
+
+a.nav-link:hover {
+    color: #1f1f24;
+    text-decoration: underline;
+}
+
+.flex-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.home-left > p.slate-grey {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.home-left > .platform-img {
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 5px 20px;
+    text-transform: uppercase;
+    font-family: 'Noto-Sans', sans-serif;
+    background-color: #db5461;
+    color: white;
+    border-radius: 3px;
+    font-size: .5em;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.btn:hover {
+    color: white;
+    background-color: #ad343e;
+}
+
+.btn + .bg-slate-grey :hover {
+    color: white;
+    background-color: #999999;
+}
+
+.btn .disabled {
+    background-color: #627c85;
+}
+
+.num-circle {
+    background-color: #627c85;
+    border-radius: 25px;
+    color: white;
+    max-width: 25px;
+    text-align: center;
+}
+
+.primary-black {
+    color: #1f1f24;
+}
+
+.primary-beige {
+    color: #d2c2b0;
+}
+
+.bg-grey {
+    background-color: #999999;
+}
+
+.bg-slate-grey {
+    background-color: #627c85;
+}
+
+.slate-grey {
+    color: #627c85;
+}
+
+.inactive-red {
+    color: #db5461;
+}
